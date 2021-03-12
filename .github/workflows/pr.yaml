@@ -10,3 +10,5 @@ jobs:
     steps:
       - name: hello world
         run: echo hello world
+      - name: fail
+        run: cat fail
