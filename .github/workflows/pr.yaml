@@ -5,6 +5,8 @@ on:
   workflow_dispatch:
 
 jobs:
+  runs-on: ubuntu-latest
   hello:
-    - name: hello world
-      runs: echo hello world
+    steps:
+      - name: hello world
+        runs: echo hello world
