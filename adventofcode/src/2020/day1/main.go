@@ -1,8 +1,10 @@
 package main
 
+import "github.com/chartleyit/goplay/adventofcode/util"
+
 func main() {
 	// i := GetData(url)
-	i := ReadData()
+	i := util.ReadData()
 
 	// Tree Method
 	// Tree(&i)
